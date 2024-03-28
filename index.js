@@ -42,7 +42,7 @@ const getRandomInt=(min,max)=>{
 
 // starts a simple http server locally on port 3000
 http_server.listen(3000, '0.0.0.0', () => {
-  console.log('Listening on 127.0.0.1:3000');
+  console.log('Server Start');
 });
 
 // run with `node server.mjs`
